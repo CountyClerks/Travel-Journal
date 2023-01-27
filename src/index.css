@@ -105,3 +105,14 @@ h1 {
   color: #2B283A;
   margin-left: 10px;
 }
+
+@media (max-width: 599px) {
+
+  .card--content {
+    width: 300px;
+  }
+  .card--image {
+    width: 197px;
+    height: 264px;
+  }
+}
