@@ -81,6 +81,7 @@ h1 {
   color: #918E9B;
   font-weight: 300;
   font-size: 16px;
+  margin-right: 5px;
 }
 
 .card--title {
@@ -109,10 +110,47 @@ h1 {
 @media (max-width: 599px) {
 
   .card--content {
-    width: 300px;
+    width: 280px;
   }
   .card--image {
-    width: 197px;
-    height: 264px;
+    width: 131px;
+    height: 176px;
+  }
+  .card--location {
+    color: #2B283A;
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 0.075em;
+    margin-right: auto;
+  }
+  
+  .card--link {
+    color: #918E9B;
+    font-weight: 300;
+    font-size: 10px;
+    margin-right: 5px;
+  }
+  
+  .card--title {
+    color: #2B283A;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .card--date {
+    color: #2B283A;
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  
+  .card--description {
+    font-weight: 400;
+    font-size: 10px;
+    color: #2B283A;
+    margin-left: 10px;
   }
 }

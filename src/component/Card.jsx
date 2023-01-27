@@ -1,7 +1,7 @@
 export default function Card(props) {
     return (
         <section className="card">
-            <img src={`/images/${props.data.image}`} alt="card image" className="card--image"/>
+            <img src={`./images/${props.data.image}`} alt="card image" className="card--image"/>
             <div className="card--content">
                 <div className="card--header">
                     <h1 className="card--location">{props.data.location}</h1>
