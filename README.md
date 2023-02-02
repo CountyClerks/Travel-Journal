@@ -1,3 +1,5 @@
+LIVE: https://countyclerks.github.io/Travel-Journal/
+
 Simple React webpage which displays card information about places I've been to.
 
 UI based on Figma design from Scrimba.
